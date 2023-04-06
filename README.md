@@ -2,6 +2,9 @@
 
 ![image](https://raw.githubusercontent.com/jorsim228/practice/main/0_0_orig.png)
 
+[![Telegram](https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg)](https://t.me/+h_7C4jH1I784NThi)
+
+
 # My Simple Site [Page](https://jorsim228.github.io/practice/)
 
 This is a simple website created by a small team of web developers who love creating easy-to-use websites. The website includes a homepage, an about us page, and a contact us [page](https://jorsim228.github.io/practice/). 
