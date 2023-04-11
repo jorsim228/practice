@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\BackendApi\\BackendApi.csproj": {}
+    "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\BackendApi\\BackendApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\BackendApi\\BackendApi.csproj": {
+    "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\BackendApi\\BackendApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\BackendApi\\BackendApi.csproj",
+        "projectUniqueName": "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\BackendApi\\BackendApi.csproj",
         "projectName": "BackendApi",
-        "projectPath": "C:\\Users\\user\\source\\repos\\BackendApi\\BackendApi.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\BackendApi\\obj\\",
+        "projectPath": "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\BackendApi\\BackendApi.csproj",
+        "packagesPath": "C:\\Users\\user.UIT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\BackendApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user.UIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -55,8 +63,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
