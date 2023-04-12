@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Online_shop_database.Models;
+
 namespace BackendApi
 {
     public class Program
@@ -5,6 +8,16 @@ namespace BackendApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<PracticeShop100423Context>(
+                    options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
+
+            builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
 
             // Add services to the container.
 
@@ -25,6 +38,8 @@ namespace BackendApi
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+
+            app.UseCors("MyPolicy");
 
 
             app.MapControllers();

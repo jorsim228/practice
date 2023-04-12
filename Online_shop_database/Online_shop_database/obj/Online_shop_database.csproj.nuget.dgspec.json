@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj",
         "projectName": "Online_shop_database",
-        "projectPath": "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj",
-        "packagesPath": "C:\\Users\\user.UIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user.UIT\\Desktop\\Demidov\\practice\\Online_shop_database\\Online_shop_database\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\practice\\Online_shop_database\\Online_shop_database\\Online_shop_database.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\practice\\Online_shop_database\\Online_shop_database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user.UIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
